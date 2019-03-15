@@ -26,3 +26,4 @@ Experimented with weight decay, dropout probability and number of hidden layers:
 - changing validation set made things a little bit worse (coincidence)
 - custom regularization produced an identical score as defaults (wd = 0.3 PS = [0.01,0.1])
 - higher dropout and weight decay helped (wd = 0.8 PS = [0.5])
+- simplest ensemble learning: taking the mean of the best two submissions improved result
